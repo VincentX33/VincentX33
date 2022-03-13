@@ -1,6 +1,6 @@
- ## Hi, I'm Vincent Dsouza
+ ##                                  Hi, I'm Vincent Dsouza
 
-- 👋 Hi, I’m @VincentX33
+
 - 👀 I’m interested in learning progamming, web development, 
 - 🌱 I’m currently learning C, C++, Python etc and am looking forward to learning more cool modules and frameworks. Budding competitive programmer.
 - I'm currently learning how to build cool websites using HTML,CSS and JS
