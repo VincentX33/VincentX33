@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning my way through</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+
+    </header>
+<main>
+    <h1>Attaining skill through practice</h1>
+    <div>
+        <p>While flexbox has been my go-to way of aligning objects, I cannot in good faith call myself a web developer if I don't learn that other staple of web development: positions and floats.</p>
+    </div>
+    <div> 
+        <h2>The position property</h2>
+        <p id="explanation">
+            Divided into absolute, fixed, relative and sticky, the position property is in many ways the most important css property one needs to understand. <br> Fixed is the easiest to comprehend. Give a div fixed position and it stays stuck to one portion of the screen.<br>
+            Checkout the following div that says FIXED.<br>
+            When div's are fixed, they are taken out of the usual flow<br>
+            Take for instance the travesty that follows
+            <br><br>
+            Now consider relative position. It does not place them relative to container, rather, it places the div relative to its original position.<br>
+            Consider the two div's that follow, one after another
+        </p>
+            <div class="un">
+                Div Uno Un Premier
+            </div>
+            <div class="deux">
+                Div Duo Deux 
+            </div>
+        <p>
+            Now I copy the above div's below, only, I use id's to give the div relative position, and different left values.
+        </p>
+    <div id="container">
+        <div id="un" class="un">
+            Div Uno Un Premier
+        </div>
+    
+    
+        <div id="deux" class="deux">
+            Div Duo Deux 
+        </div>
+    </div>
+    </div>
+    <div id="fixed">
+        <p>I am fixed to my given position. Even if you scroll I'll hover over your screen</p>
+    </div>
+    <p style="margin:2em 0em">
+        The deux div shud have been positioned in the lighter blue, because that is its container, but due to relative positioning, its moved 10% to the right and 1.5em below, so that it is half in half out.
+    </p>
+    <hr>
+    <p>
+        Now its time to learn about absolute positioning. Absolute positions the element <em>relative</em> to the nearest positioned ancestor ie, it depends on its closest parent.  This makes it rather dangerous, as if one changes, others change too. If I give it absolute and make top and left 0, it flies up to its nearest ancestors top ie right on top. But if I give it top = 100em, it will come down.
+    </p>
+    <div class="absolute">
+        The text within doesn't matter: what does is the fact that I'm learning web development using any text I can and my wandering imagination can in fact be chained to be actually creative.
+    </div>
+    <p>
+        Now I copy the exact above div and give it position property absolute.
+    </p>
+    <div class="absolute" id="absolute">
+        The text within doesn't matter: what does is the fact that I'm learning web development using any text I can and my wandering imagination can in fact be chained to be actually creative.
+    </div>
+    <br>    
+    <p>
+        My example was not very good because the ancestor was main. Lets try it again with a container div.
+    </p>
+    <div class="container">
+        <div class="absolute" id="absolute2">
+            Content within the child that is positioned using absolute positioning. The width is 80% of the parent so thats fixed, the height fluctuates as per the amount of content contained within the div. Now let's style it relative to container div. <em>Positioned it left:3em and top:3em </em>
+        </div>
+        <div class="centered absolute">
+            This div is much like the first one, but I'll center it using position absolute. See this div, centered without flexbox or grid. Its such a pleasure. Of course, we have to use transform and translate because otherwise the left & top sides are placed at 50% respectively. <br> Using this, the element is centered regardless of the height width etc. Really a joy understanding this.
+        </div>
+    </div>
+    <hr>
+    <p>
+        Now its time to understand the <em>sticky</em> position property. Often used for popups and email subscription boxes, they retain a particular position in the container until a certain scroll position is reached at which point they behave like fixed position elements.
+    </p>
+    <div class="container" >
+        <div class="sticky">
+            The div contained sticks to the scrollbar and refuses to leave, scrolling along nicely. Of course, for it to work properly, we need both position sticky and then the top property telling where the sticky element shud float. I used top 1em. <br>
+            Sticky elements don't overflow their container elements ie if you scroll till the container is gone past, the sticky element stays where it is.
+
+        </div>
+    </div>
+    <hr>
+    <p>
+        There's always a lot more to learn.
+        <br><br><br>
+    </p>
+    <p>
+        In my previous project, I was asked to place a colored overlay on an image, and I had to huff and puff to achieve said objective. Let me try now:
+    </p>
+    <div class="imageclass">
+        <img src="./VincentDsouza2.jpeg" alt="VincentDsouza" class="image">
+    </div>
+    <p>
+        Got a nice little gradient behind my own face, how's that?
+    </p>
+    <br>
+    <p>
+        Now onto the really challenging stuff, rather, the easy stuff that was challenging me. Floats. Now seriously, it didn't seem that difficult in the tutorial, but then, that's what tutorials are for, right?<br>I'll set up a container and practice my floats in it.
+    </p>
+    <div class="container">
+        <div class="floating right">
+            The text within shud be floating right, aye?
+        </div>
+        
+        <div class="floating left">
+            The text within shud be floating left.
+        </div>
+        <div class="floating rbelow">
+            The text within shud be floating right,below the topmost right floated div because we have used clear right. This div will stay below the right one.
+        </div>
+        <div class="floating lbelow">
+            The text within shud be floating below the left floated elements, aye?
+        </div>
+        <div class="floating">
+            The text within shud be floating, aye?
+        </div>
+        
+    </div>
+    <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis perspiciatis aut accusantium labore facilis, obcaecati quis! Numquam saepe tenetur veniam asperiores fugit libero excepturi ipsam architecto, nihil tempore odit quasi.
+    </p>
+    <p>
+        Am I done with web dev? Hell no. Now I'm off to try another project on frontend mentor: hope it goes better this time.
+    </p>
+    <p>
+        Now I'm going to try and implement forms:
+    </p>
+    <section id="formSection">
+        <form id="form">
+            <h2>
+                Student Details
+            </h2>
+            <div class="message"></div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="dob">Date Of Birth</label>
+                <input type="date" id="dob">
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age">
+            </div>
+            <input class="btn" type="button" value="submit">
+        </form>
+    </section>
+</main>
+    <footer>
+
+    </footer>
+</body>
+</html>
