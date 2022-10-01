@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/v1nceeeent" target="blank"><img src="https://img.shields.io/twitter/follow/v1nceeeent?logo=twitter&style=for-the-badge" alt="v1nceeeent" /></a> </p>
 
-- 🌱 I’m currently learning **Frontend Development,JavaScript, Python**
+- 🌱 I’m currently learning **DSA, Django, Frontend Web Development,C/C++, JavaScript**
 
 - 👨‍💻 All of my projects are available at [https://github.com/VincentX33](https://github.com/VincentX33)
 
