@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vincentx33&label=Profile%20views&color=0e75b6&style=flat" alt="vincentx33" /> </p>
 
-<p align="left"> <a href="https://twitter.com/v1nceeeent" target="blank"><img src="https://img.shields.io/twitter/follow/v1nceeeent?logo=twitter&style=for-the-badge" alt="v1nceeeent" /></a> </p>
+<p align="left"> <a href="https://twitter.com/codeConjuror" target="blank"><img src="https://img.shields.io/twitter/follow/codeConjuror?logo=twitter&style=for-the-badge" alt="codeConjuror" /></a> </p>
 
 - 🌱 I’m currently learning **DSA, Django, Frontend Web Development,C/C++, JavaScript**
 
